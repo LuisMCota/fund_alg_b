@@ -11,7 +11,7 @@ char unCaracter = 'M';
 //////////////////////////////////
 
 
-///La ejecucion del Progrma//////
+///La ejecucion del Programa//////
 int main(){
     printf("Hello Data B %s\n", name);
     return 0;
