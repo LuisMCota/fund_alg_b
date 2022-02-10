@@ -14,6 +14,8 @@ int temperatura; //Definiendo la variable
 char* date = "02-02-22T10:25:00z";
 //////////////////////////////////
 
+
+
 ///La ejecucion del Programa//////
 int main(){
     temperatura = 24;
