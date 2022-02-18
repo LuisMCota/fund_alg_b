@@ -34,7 +34,16 @@ int main(int argc, char** argv){
     }
 
     if(inputTemp <= 29){
-        //Robot.move
+        //Robot.move(x.axis, y_axis)
+    } else{
+        //Robot.stop(x_cord)
     }
     return 0;
+}
+
+// e.g.
+if(hasUserMoney){
+    printf("The product was sended|");
+}else{
+    printf("The product was rejected");
 }
