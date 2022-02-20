@@ -4,14 +4,14 @@
 
 
 int main(){
-    int numberToTest = 0;
+    int numberToTest = 9;
     int result = numberToTest % 2;
     bool hasModule = (result > 0);
 
-if(hasModule){
+    if(hasModule){
         printf("Odd\n");
-} else{
+    } else{
         printf("even\n");
-}
+    }
 return 0;
 }
