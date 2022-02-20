@@ -3,15 +3,15 @@
 
 
 
-int main(){
+int main(int argc, char** argv){
     int numberToTest = 0;
     int result = numberToTest % 2;
     bool hasModule = (result > 0);
 
-    if(hasModule){
-        printf("Odd\n");
-    } else{
-        printf("even\n");
-    }
+if(hasModule){
+    printf("Odd\n");
+} else{
+     printf("even\n");
+}
 return 0;
 }
