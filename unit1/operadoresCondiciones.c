@@ -42,8 +42,3 @@ int main(int argc, char** argv){
 }
 
 // e.g.
-if(hasUserMoney){
-    printf("The product was sended|");
-}else{
-    printf("The product was rejected");
-}
