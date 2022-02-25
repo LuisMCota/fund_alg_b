@@ -6,10 +6,10 @@
 int main(int argc, char** argv){
     if (argc != 2){
     printf("Error program: U need to insert a number, e.g: ./%s argv[1]\n", argv[0]);
-    return 0;
+    return 0;//es para que te obligue a insertar un numero, sino marca error//
 }
 
-bool isANumber = (argv[1][0] >= 48 && argv[1][0] <= 57);
+bool isANumber = (argv[1][0] >= 48 && argv[1][0] <= 57);//para que no admita ningun valor que no sea numerico//
     
 if (!isANumber){
     printf("Error program: U need to insert just a number not a letter, e.g: %s 8\n", argv[0]);
