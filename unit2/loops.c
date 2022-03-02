@@ -19,8 +19,20 @@ int main(int argc, char** argv){
         system("clear");
         printf("Program running...\n");
         sleep(1000);
-
     }
-
-    return 0;
+    for(;;){
+        break;
+}
+    bool condicion;
+    int i = 1;
+    int cuenta = 0;
+    //1+2+3
+    do{
+        cuenta += i; // cuenta = cuenta + 1
+        printf("dato %d\n", cuenta);
+        condicion = (i < 3);
+        i++;
+    }
+    while(condicion);
+     return 0;
 }
