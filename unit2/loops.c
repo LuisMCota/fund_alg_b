@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include "../libraries/utils.h"
+#include <stdlib.h>
 
 int main(int argc, char** argv){
     for (int iterator = 1; iterator <= 10; iterator = iterator + 1){//for(en donde empieza mi loop; hasta donde llega; una operacion)
@@ -13,5 +14,13 @@ int main(int argc, char** argv){
         rango++;//rango + rango + 1
     }
     printf("suma: %d\n", count);
+
+    while (true){
+        system("clear");
+        printf("Program running...\n");
+        sleep(1000);
+
+    }
+
     return 0;
 }
