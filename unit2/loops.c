@@ -10,7 +10,7 @@ int main(int argc, char** argv){
     int count = 0 ;
     while(rango <= 99){
         count = count + rango;
-        rango++;
+        rango++;//rango + rango + 1
     }
     printf("suma: %d\n", count);
     return 0;
