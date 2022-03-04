@@ -4,23 +4,21 @@
 
 int main(){
     
-int num;
-printf("Ingresar un numero: \n");
-scanf("%d", &num);
+ int n, i, num = 0;
+  printf("Ingresa X numero:");
+  scanf("%d", &n);
 
+  //logic
+  for (i = 1; i <= n; i++) {
+      if (n % i == 0) {
+         num++;
+      }
+  }
 
-for(int i = 1; i <= num; i++){
-    bool isdivide = (num%i == 0);
-    i++;
-
-    if (isdivide){
-        printf("Numero Primo \n");
-    }
-    else{
-        printf("No es numero primo\n");
-    }
-}
+  if (num == 2){
+      printf("Is prime\n");
+  } else {
+      printf("It is not prime\n'");
+  }
 return 0;
 }
-
-
