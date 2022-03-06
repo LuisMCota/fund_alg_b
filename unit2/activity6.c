@@ -25,6 +25,8 @@ int main(int argc, char** argv){
 
         if (!isdivided){
             printf("odd number: %d \n", i);
+        }else{
+            printf("Even number: %d \n", i);
         }
         
         i = i + 1;
